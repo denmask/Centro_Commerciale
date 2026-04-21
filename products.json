@@ -1,0 +1,147 @@
+{
+  "shops": [
+    {
+      "id": "panificio",
+      "name": "Panificio",
+      "icon": "🥖",
+      "color": "#d4870a",
+      "bg": "#fff8ed",
+      "products": [
+        { "id": 1, "name": "Pane di segale", "price": 2.50, "unit": "700g", "img": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=300&q=80" },
+        { "id": 2, "name": "Focaccia genovese", "price": 3.20, "unit": "500g", "img": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?w=300&q=80" },
+        { "id": 3, "name": "Croissant al burro", "price": 1.20, "unit": "cadauno", "img": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&q=80" },
+        { "id": 4, "name": "Ciabatta", "price": 1.80, "unit": "400g", "img": "https://images.unsplash.com/photo-1534620808146-d33bb39128b2?w=300&q=80" }
+      ]
+    },
+    {
+      "id": "pizzeria",
+      "name": "Pizzeria",
+      "icon": "🍕",
+      "color": "#c0392b",
+      "bg": "#fff5f5",
+      "products": [
+        { "id": 5, "name": "Pizza Margherita", "price": 7.50, "unit": "30cm", "img": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=300&q=80" },
+        { "id": 6, "name": "Pizza Diavola", "price": 9.00, "unit": "30cm", "img": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=300&q=80" },
+        { "id": 7, "name": "Calzone farcito", "price": 8.50, "unit": "cadauno", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300&q=80" },
+        { "id": 8, "name": "Trancio al prosciutto", "price": 4.00, "unit": "250g", "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80" }
+      ]
+    },
+    {
+      "id": "farmacia",
+      "name": "Farmacia",
+      "icon": "💊",
+      "color": "#27ae60",
+      "bg": "#f0fff4",
+      "products": [
+        { "id": 9, "name": "Vitamina C 1000mg", "price": 8.90, "unit": "20 cpr", "img": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=300&q=80" },
+        { "id": 10, "name": "SPF 50 Solare", "price": 14.50, "unit": "200ml", "img": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=300&q=80" },
+        { "id": 11, "name": "Cerotti elastici", "price": 3.20, "unit": "10 pz", "img": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=300&q=80" },
+        { "id": 12, "name": "Collirio lenitivo", "price": 6.80, "unit": "10ml", "img": "https://images.unsplash.com/photo-1576671081837-49000212a370?w=300&q=80" }
+      ]
+    },
+    {
+      "id": "supermercato",
+      "name": "Eurospin",
+      "icon": "🛒",
+      "color": "#2980b9",
+      "bg": "#f0f8ff",
+      "products": [
+        { "id": 13, "name": "Pasta spaghetti n.5", "price": 0.89, "unit": "500g", "img": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80" },
+        { "id": 14, "name": "Latte fresco intero", "price": 1.29, "unit": "1L", "img": "https://images.unsplash.com/photo-1563636619-e9143da7973b?w=300&q=80" },
+        { "id": 15, "name": "Olio EVO biologico", "price": 5.49, "unit": "750ml", "img": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=300&q=80" },
+        { "id": 16, "name": "Passata di pomodoro", "price": 1.09, "unit": "700g", "img": "https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=300&q=80" }
+      ]
+    },
+    {
+      "id": "macelleria",
+      "name": "Macelleria",
+      "icon": "🥩",
+      "color": "#922b21",
+      "bg": "#fff0f0",
+      "products": [
+        { "id": 17, "name": "Bistecca di manzo", "price": 18.90, "unit": "kg", "img": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=300&q=80" },
+        { "id": 18, "name": "Pollo ruspante", "price": 9.50, "unit": "kg", "img": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?w=300&q=80" },
+        { "id": 19, "name": "Salsicce fresche", "price": 7.20, "unit": "500g", "img": "https://images.unsplash.com/photo-1558030137-a56c1b004fa3?w=300&q=80" },
+        { "id": 20, "name": "Prosciutto crudo", "price": 24.00, "unit": "kg", "img": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=300&q=80" }
+      ]
+    },
+    {
+      "id": "bar",
+      "name": "Bar",
+      "icon": "☕",
+      "color": "#6d4c41",
+      "bg": "#fdf6f0",
+      "products": [
+        { "id": 21, "name": "Caffè espresso", "price": 1.20, "unit": "tazzina", "img": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=300&q=80" },
+        { "id": 22, "name": "Cappuccino", "price": 1.60, "unit": "tazza", "img": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=300&q=80" },
+        { "id": 23, "name": "Cornetto vuoto", "price": 1.00, "unit": "cadauno", "img": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=300&q=80" },
+        { "id": 24, "name": "Tramezzino tonno", "price": 2.50, "unit": "cadauno", "img": "https://images.unsplash.com/photo-1539252554935-80e7a68b4f72?w=300&q=80" }
+      ]
+    },
+    {
+      "id": "banca",
+      "name": "Banca",
+      "icon": "🏦",
+      "color": "#1a5276",
+      "bg": "#f0f4ff",
+      "products": [
+        { "id": 25, "name": "Conto Corrente Base", "price": 0.00, "unit": "gratuito", "img": "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=300&q=80" },
+        { "id": 26, "name": "Carta di Credito", "price": 36.00, "unit": "/anno", "img": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=300&q=80" },
+        { "id": 27, "name": "Fondo Risparmio", "price": 50.00, "unit": "minimo", "img": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=300&q=80" },
+        { "id": 28, "name": "Cassetta di Sicurezza", "price": 60.00, "unit": "/anno", "img": "https://images.unsplash.com/photo-1582142306909-195724d33ffc?w=300&q=80" }
+      ]
+    },
+    {
+      "id": "cartoleria",
+      "name": "Cartoleria",
+      "icon": "✏️",
+      "color": "#8e44ad",
+      "bg": "#fdf5ff",
+      "products": [
+        { "id": 29, "name": "Set penne colorate", "price": 4.90, "unit": "12 pz", "img": "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=300&q=80" },
+        { "id": 30, "name": "Quaderno A4 rigato", "price": 2.50, "unit": "96 pag", "img": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=300&q=80" },
+        { "id": 31, "name": "Post-it assortiti", "price": 3.20, "unit": "4 blocchi", "img": "https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?w=300&q=80" },
+        { "id": 32, "name": "Zaino scuola", "price": 29.90, "unit": "cadauno", "img": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300&q=80" }
+      ]
+    },
+    {
+      "id": "benzinaio",
+      "name": "Benzinaio",
+      "icon": "⛽",
+      "color": "#f39c12",
+      "bg": "#fffbf0",
+      "products": [
+        { "id": 33, "name": "Benzina Super", "price": 1.879, "unit": "/L", "img": "https://images.unsplash.com/photo-1545262792-bc3571d9e7a3?w=300&q=80" },
+        { "id": 34, "name": "Gasolio", "price": 1.729, "unit": "/L", "img": "https://images.unsplash.com/photo-1594087626086-06b32b5aeac9?w=300&q=80" },
+        { "id": 35, "name": "Olio motore 5W40", "price": 22.90, "unit": "5L", "img": "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?w=300&q=80" },
+        { "id": 36, "name": "Autolavaggio", "price": 8.00, "unit": "base", "img": "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=300&q=80" }
+      ]
+    },
+    {
+      "id": "elettronica",
+      "name": "MediaWorld",
+      "icon": "📱",
+      "color": "#e74c3c",
+      "bg": "#fff5f5",
+      "products": [
+        { "id": 37, "name": "iPhone 15 Pro 128GB", "price": 1299.00, "unit": "cadauno", "img": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=300&q=80" },
+        { "id": 38, "name": "Samsung TV 55\" 4K", "price": 699.00, "unit": "cadauno", "img": "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=300&q=80" },
+        { "id": 39, "name": "Cuffie Sony WH-1000", "price": 249.00, "unit": "cadauno", "img": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&q=80" },
+        { "id": 40, "name": "Laptop Lenovo i5 16GB", "price": 849.00, "unit": "cadauno", "img": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=300&q=80" }
+      ]
+    },
+    {
+      "id": "abbigliamento",
+      "name": "Piazza Italia",
+      "icon": "👗",
+      "color": "#16a085",
+      "bg": "#f0fdf9",
+      "products": [
+        { "id": 41, "name": "T-shirt cotone basic", "price": 9.99, "unit": "cadauno", "img": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=300&q=80" },
+        { "id": 42, "name": "Jeans slim fit", "price": 29.99, "unit": "cadauno", "img": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=300&q=80" },
+        { "id": 43, "name": "Sneakers moda", "price": 34.99, "unit": "paio", "img": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&q=80" },
+        { "id": 44, "name": "Giacca primaverile", "price": 49.99, "unit": "cadauno", "img": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=300&q=80" }
+      ]
+    }
+  ]
+}
