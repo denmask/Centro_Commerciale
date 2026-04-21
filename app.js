@@ -3,62 +3,62 @@ let allShops = [];
 let activeShop = null;
 
 const PRODUCT_IMAGES = {
-  1:  'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=85', 
-  2:  'https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400&q=85', 
+  1:  'https://www.melarossa.it/wp-content/uploads/2019/12/pane-di-segale-ricetta.jpg?x99527', 
+  2:  'https://tse2.mm.bing.net/th/id/OIP.wOxpMFRhYVE6Y8610ltJgAHaE8?cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3', 
   3:  'https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400&q=85', 
-  4:  'https://images.unsplash.com/photo-1534620808146-d33bb39128b2?w=400&q=85', 
+  4:  'https://www.browneyedbaker.com/wp-content/uploads/2024/01/ciabatta-25-1200.jpg', 
 
   5:  'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&q=85', 
   6:  'https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400&q=85', 
-  7:  'https://images.unsplash.com/photo-1570562393617-0fce2427699d?w=400&q=85', 
-  8:  'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&q=85', 
+  7:  'https://th.bing.com/th/id/R.87cba8421fac383ecb1de4319523fd3c?rik=ukj8zrb4Yp%2bkHg&pid=ImgRaw&r=0', 
+  8:  'https://www.coopshop.it/photo/2020/09/05/e/raw/large/6565090_1392233_1.jpg', 
 
-  9:  'https://images.unsplash.com/photo-1550572017-edd951aa8f72?w=400&q=85', 
-  10: 'https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&q=85', 
-  11: 'https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=400&q=85', 
-  12: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&q=85', 
+  9:  'https://tse4.mm.bing.net/th/id/OIP.mdPnt4xk_5dtlCLbk98WNQHaHa?cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3', 
+  10: 'https://i1.perfumesclub.com/grande/166517.jpg', 
+  11: 'https://1000farmacie-s3-production-images.gumlet.io/product_images/931094027/7lk20h6yynu6mozjttnmh2u257o7/cerotto_articolazioni_elastico_profar_16_pezzi.jpg?format=webp&height=400&quality=75&width=400', 
+  12: 'https://tse2.mm.bing.net/th/id/OIP.FXN0Uqdt_7LKHUKmk36iQwHaHa?cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3', 
 
   13: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&q=85', 
   14: 'https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400&q=85', 
   15: 'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=400&q=85', 
-  16: 'https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=400&q=85', 
+  16: 'https://www.lowprice.ch/101027-large_default/primia-passata-di-pomodoro-rustica.jpg', 
 
   17: 'https://images.unsplash.com/photo-1558030137-a56c1b004fa3?w=400&q=85', 
   18: 'https://images.unsplash.com/photo-1604503468506-a8da13d82791?w=400&q=85', 
-  19: 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=400&q=85', 
-  20: 'https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=400&q=85', 
+  19: 'https://www.ilnorcino.eu/wp-content/uploads/2020/12/Salsiccie-fresche-dolci.jpg', 
+  20: 'https://th.bing.com/th/id/R.2c1fb8ffa4b9f474fbb58f38146db9d0?rik=bjHO8R%2bDPRmePg&riu=http%3a%2f%2fwww.passionemamma.it%2fwp-content%2fuploads%2f2015%2f05%2fprosciutto-crudo.jpg&ehk=6SjXyHsdCsRRsLfQSUz%2fUVg3q8DoEFBGTHmkt0DnTmU%3d&risl=&pid=ImgRaw&r=0', 
 
   21: 'https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=400&q=85', 
   22: 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&q=85',
   23: 'https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=400&q=85', 
-  24: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=400&q=85', 
+  24: 'https://blog.giallozafferano.it/paola67/wp-content/uploads/2018/07/tramezzini-tonno-e-uova-768x512.jpg', 
 
   25: 'https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=400&q=85', 
   26: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=85', 
   27: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=400&q=85', 
-  28: 'https://images.unsplash.com/photo-1582142306909-195724d33ffc?w=400&q=85', 
+  28: 'https://tse4.mm.bing.net/th/id/OIP.S--m8LT50JFj_FgHQtNBTAHaF-?cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3', 
 
-  29: 'https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=400&q=85', 
-  30: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&q=85', 
-  31: 'https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?w=400&q=85', 
-  32: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&q=85', 
+  29: 'https://thumbs.dreamstime.com/b/cascata-delle-penne-colorate-486086.jpg', 
+  30: 'https://m.media-amazon.com/images/I/411A6UrFrFS._AC_.jpg', 
+  31: 'https://www.ufficiodiscount.it/imgpool/fe21-product-detail/R0/R00893.jpg', 
+  32: 'https://th.bing.com/th/id/R.63ffd2cc50f8c57083569e4ea4746fc5?rik=f6lw5N9EhdnKQg&pid=ImgRaw&r=0', 
 
-  33: 'https://images.unsplash.com/photo-1545262792-bc3571d9e7a3?w=400&q=85', 
-  34: 'https://images.unsplash.com/photo-1594087626086-06b32b5aeac9?w=400&q=85', 
-  35: 'https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?w=400&q=85', 
+  33: 'https://quifinanza.it/wp-content/uploads/sites/5/2023/09/Italia-tra-i-Paesi-dEuropa-dove-la-benzina-costa-di-piu.jpeg', 
+  34: 'https://dealer.cdn.gestionaleauto.com/wp-content/uploads/sites/2846/2023/07/additivi_diesel.jpg', 
+  35: 'https://www.effemmericambi.com/3080-thickbox_default/olio-motore-elf-evolution-900-nf-5w-40-1-lt.jpg', 
   36: 'https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=400&q=85', 
 
   // MEDIAWORLD
   37: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&q=85', 
-  38: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?w=400&q=85', 
-  39: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&q=85', 
-  40: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&q=85', 
+  38: 'https://th.bing.com/th/id/R.ec8d4a79bc1f58b5719850bcd77c871b?rik=lZNzUewnJPWtIQ&pid=ImgRaw&r=0', 
+  39: 'https://www.wemedia.it/img/news/hi/202505/sony-wh-1000xm6-cuffie-nuove_20250528.webp', 
+  40: 'https://electronicparadise.in/cdn/shop/files/LenovoLOQIntelCorei5.jpg?v=1701941363&width=1500', 
 
   // PIAZZA ITALIA
   41: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&q=85', 
   42: 'https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&q=85', 
-  43: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=85', 
-  44: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&q=85',
+  43: 'https://i.ebayimg.com/images/g/e58AAOSwd~5lRSvs/s-l1600.webp', 
+  44: 'https://shop.hcap.ch/media/fc/f1/11/1763632109/Giacca1.jpg',
 };
 
 const FALLBACK = 'https://images.unsplash.com/photo-1586339949916-3e9457bef6d3?w=400&q=80';

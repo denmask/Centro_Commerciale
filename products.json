@@ -7,10 +7,10 @@
       "color": "#d4870a",
       "bg": "#fff8ed",
       "products": [
-        { "id": 1, "name": "Pane di segale", "price": 2.50, "unit": "700g", "img": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=300&q=80" },
-        { "id": 2, "name": "Focaccia genovese", "price": 3.20, "unit": "500g", "img": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?w=300&q=80" },
+        { "id": 1, "name": "Pane di segale", "price": 2.50, "unit": "700g", "img": "images/segale.png" },
+        { "id": 2, "name": "Focaccia genovese", "price": 3.20, "unit": "500g", "img": "images/focaccia.png" },
         { "id": 3, "name": "Croissant al burro", "price": 1.20, "unit": "cadauno", "img": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&q=80" },
-        { "id": 4, "name": "Ciabatta", "price": 1.80, "unit": "400g", "img": "https://images.unsplash.com/photo-1534620808146-d33bb39128b2?w=300&q=80" }
+        { "id": 4, "name": "Ciabatta", "price": 1.80, "unit": "400g", "img": "ciabatta.png" }
       ]
     },
     {
